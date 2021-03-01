@@ -1,0 +1,43 @@
+var a = parseInt(prompt("Input Number"));
+b = ++a;
+console.log(b);
+var c = ++a;
+console.log(c);
+var d = --a;
+console.log(d);
+var e = --a;
+console.log(e);
+
+
+
+document.write("Result");
+document.write("<br/>");
+document.write("The Value of a is:" + " " + a);
+document.write("<br>");
+document.write("----------------------------------------");
+document.write("<br>");
+document.write("<br>");
+document.write("The value of ++a is:" + " " + b);
+document.write("<br/>");
+document.write("The value of a is:" + " " + b);
+document.write("<br>");
+document.write("<br/>");
+document.write("<br/>");
+document.write("Now the value ++a is:" + " " + b);
+document.write("<br/>");
+document.write("Now the value a is:" + " " + c);
+document.write("<br/>");
+document.write("<br/>");
+document.write("<br/>");
+document.write("The Value of --a is " + " " + d);
+document.write("<br/>");
+document.write("The value of a is:" + " " + d);
+document.write("<br/>");
+document.write("<br/>");
+document.write("<br/>");
+document.write("The value of --a is:" + " " +d);
+document.write("<br/>");
+document.write("The value value of a is:" + " " + e);
+document.write("<br/>");
+document.write("<br/>");
+document.write("_________________________________________");
